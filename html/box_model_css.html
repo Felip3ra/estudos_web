@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 
+        margin: space external
+        padding: space internal
+        box-sizing: border-box: it is used to include both padding and border on the total width and height
+     -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .section-one,
+        .section-two {
+            box-sizing: border-box;
+        }
+
+        .section-one {
+            width: 200px;
+            height: 150px;
+            padding: 15px;
+            background: deeppink;
+            /*border: 5px solid black;*/
+            border-bottom-width: 10px;
+            border-bottom-color: black;
+            border-bottom-style: solid;
+            background-image: url(https://images.squarespace-cdn.com/content/v1/61c4da8eb1b30a201b9669f2/1696691175374-MJY4VWB1KS8NU3DE3JK1/Sounds-of-Nature.jpg);
+            background-size: cover;
+            background-position: center center;
+            color: white;
+            margin: 30px;
+        }
+
+        .section-two {
+            background: cyan;
+            width: 200px;
+            height: 150px;
+            border: 5px solid black;
+            padding: 15px;
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section-one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, sit numquam! Officia assumenda voluptas
+
+    </section>
+    <section class="section-two">
+        2
+    </section>
+</body>
+
+</html>
